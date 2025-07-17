@@ -1,0 +1,22 @@
+{
+  "name": "@steroidsjs/eslint-plugin-steroidsjs-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "",
+  "author": "Vladimir Kozhin <hello@kozhindev.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/steroids/eslint-plugin-backend"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/steroids/eslint-plugin-backend",
+  "bugs": {
+    "url": "https://github.com/steroids/eslint-plugin-backend/issues"
+  },
+  "scripts": {
+    "test": "node lib/rules/tests/required-enum-to-helper.test.js"
+  },
+  "peerDependencies": {
+    "eslint": "^8.33.0"
+  }
+}
