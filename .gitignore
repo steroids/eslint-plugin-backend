@@ -1,0 +1,7 @@
+node_modules/
+.eslintcache
+.npm
+.idea
+.DS_Store
+.vscode/
+dist/
