@@ -17,6 +17,7 @@
     "test": "node lib/rules/tests/required-enum-to-helper.test.js"
   },
   "peerDependencies": {
-    "eslint": "^8.33.0"
+    "@typescript-eslint/types": "^8.67.0",
+    "eslint": "^8.57.1"
   }
 }
